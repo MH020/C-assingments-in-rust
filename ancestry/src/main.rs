@@ -1,6 +1,7 @@
+mod ancestry;
+
 use crate::ancestry::{AncestryNodeT, PersonT, add_dad, add_mom, free_tree, make_person, make_tree, print_tree};
 
-mod ancestry;
 
 fn main() {
     large_heap_allocated_tree(); 
