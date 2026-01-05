@@ -1,7 +1,3 @@
-use std::ptr::null;
-
-use crate::ancestry;
-
 pub struct PersonT {
     pub first_name: String, 
     pub last_name: String, 
